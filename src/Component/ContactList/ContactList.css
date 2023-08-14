@@ -1,0 +1,23 @@
+.page__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page__item {
+  width: 220px;
+
+  padding: 6px;
+  margin: 6px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.page__button {
+  background-color: skyblue;
+
+  padding: 6px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
